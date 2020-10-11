@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div id="box">
+    <div id="boxt"></div>
+      <!-- <div class="box1 black"></div>
+      <div class="box1"></div>
+      <div class="box1"></div>
+      <div class="box1"></div> -->
+  </div>
+  <button id="button1">开始游戏</button>
+  <button id="button2">暂停游戏</button>
+  <h1 id="grade">得分:0</h1>
+</body>
+<style>
+  #button1{
+    background-color: aqua;
+    font-size: 30px;
+    position: relative;
+    top:40px;
+    left:150px;
+  }
+
+  #button2{
+    background-color: aqua;
+    font-size: 30px;
+    position: relative;
+    top:40px;
+    left:200px;
+  }
+
+  *{
+    margin:0;
+    padding:0;
+  }
+  #box{
+    width:500px;
+    height:510px;
+    /* background-color: #bfa; */
+    position: relative;
+  }
+
+  #boxt{
+    width:500px;
+    height:510px;
+    /* background-color: #bfa; */
+    position: relative;
+    top:-125px;
+    overflow: hidden;
+  }
+  .boxs{
+    width:500px;
+    height:125px;
+    background-color: blue;
+    
+ 
+  }
+
+  .box1{
+    width:123px;
+    height:125px;
+    background-color: white;
+    border: black solid 1px;
+    float:left;
+  }
+
+  .black{
+    background-color: black;
+    width:123px;
+    height:125px;
+    border: black solid 1px;
+    float:left;
+  }
+</style>
+<script type='text/javascript' src='index.js'></script>
+</html>
